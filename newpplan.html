@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title> </title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="materialize/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="materialize/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="materialize/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="overidematerialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+</head>
+
+
+
+<body>
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="materialize/js/materialize.min.js"></script>
+  <script src="materialize/js/materialize.js"></script>
+  <script src="materialize/js/init.js"></script>
+
+
+  <!-- Header div -->                    
+  <div class=" white-text light blue darken-2">
+    <nav>
+      <div class="nav-wrapper light blue darken-2">
+        <a href="#" data-activates="slide-out" class="button-collapse show-on-large white-text"><i class="material-icons"></i></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="#!"><i class="material-icons white-text">add</i></a></li>
+          <li><a href="#!"><i class="material-icons white-text">person_outline</i></a></li>
+          <li><a href="#!"><i class="material-icons white-text">create_new_folder</i></a></li>
+          <li><a href="#!"><i class="material-icons white-text">settings</i></a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <div class="row"></div>
+
+  <!-- Form codes -->
+  <!-- First Line -->
+  <div class="row">
+    <form class="col s12 offset-s2">
+      <fieldset class="col s9"><h5 style="text-align:center"> Create New Payment Plan </h5>
+
+
+
+        <!-- First Line-->
+        <div class="row">
+          <div class="input-field col s4">
+            <input id="salary" type="text" class="validate">
+            <label for="salary">Plan Name</label>
+          </div>
+          <div class="input-field col s4">
+            <input id="salary" type="text" class="validate">
+            <label for="salary">Basic Salary (N)</label>
+          </div>
+          <div class="input-field col s4">
+            <select>
+              <option value="" disabled selected>Choose your option</option>
+              <option value="1">Grade 1</option>
+              <option value="2">Grade 2</option>
+              <option value="3">Grade 3</option>
+            </select>
+            <label>Grade Level</label>
+          </div>
+        </div>
+
+
+
+        <!-- Second Line-->
+        <div class="row">
+          <div class="input-field col s4">
+            <input id="o_hrs" type="text" class="validate">
+            <label for="o_hrs">Overtime Hrs</label>
+          </div>
+          <div class="input-field col s4">
+            <input id="r_hrs" type="tel" class="validate">
+            <label for="r_hrs">Overtime Rate/hr</label>
+          </div>
+          <div class="input-field col s4">
+            <input id="o_bonus" type="text" class="validate">
+            <label for="o_bonus">Overtime Bonus</label>
+          </div>
+        </div>
+
+        <!-- Button code-->
+        <button class="btn waves-effect waves-light col s2 offset-s5 light blue darken-2" type="submit" name="action">Submit</button>
+
+
+
+
+      </fieldset>
+    </form>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script type='text/javascript'>
+    $('.datepicker').pickadate({
+    selectMonths: true, // Creates a dropdown to control month
+    selectYears: 15, // Creates a dropdown of 15 years to control year,
+    today: 'Today',
+    clear: 'Clear',
+    close: 'Ok',
+    closeOnSelect: false // Close upon selecting a date,
+  });
+  </script>
+
+  <script type='text/javascript'>
+    $(document).ready(function() {
+      $('select').material_select();
+    });
+  </script>
+
+
+
+</body>
+</html>

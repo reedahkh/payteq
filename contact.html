@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Contact</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="materialize/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="materialize/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="materialize/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+
+<body>
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="materialize/js/materialize.min.js"></script>
+  <script src="materialize/js/materialize.js"></script>
+  <script src="materialize/js/init.js"></script>
+
+
+  <div>
+    <!-- Header div -->
+    
+    <div class="white-text light blue darken-2">
+      <table>
+        <tr>
+          <td> <img src="images/pt.png" alt="payteqlogo"></td>
+          <td> <a href="home.html" style="color:white">HOME</a></td>
+          <td> <a href="about.html" style="color:white">ABOUT</a></td>
+          <td> <a href="features.html" style="color:white">FEATURES</a></td>
+          <td> <a href="contact.html" style="color:white">CONTACT</a></td>
+          <td> <a href="adminlogin.html" style="color:white">ADMIN/LOGIN</a></td>
+          <td> <nav>
+            <div class="nav-wrapper white">
+              <form>
+                <div class="input-field">
+                  <input id="search" type="search" required>
+                  <label class="label-icon" for="search"><i class="material-icons black-text">search</i></label>
+                  <i class="material-icons">close</i>
+                </div>
+              </form>
+            </div>
+          </nav> 
+        </td>
+
+        
+      </tr>
+    </table>
+  </div>
+
+
+  <!-- Google map -->
+  <div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63041.487250314334!2d7.4203095!3d9.0552857!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa083899ae01649f!2sQuanteq+Technology+Services!5e0!3m2!1sen!2sng!4v1502648379593" width="1349" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
+
+  <!-- Contact Us Section-->    
+  <div>
+    <h4 style="text-align:center" class="center"> Contact us </h4>
+    
+    <div class="row">
+      <div class="col s12 m4">
+        <div class="icon-block">
+          <h2 class="center brown-text"><i class="material-icons">location_on</i></h2>
+          <h5 class="center">Address</h5>
+          <p class="light center">Plot 564/565 Independence Ave, Central Business District, Abuja</p>
+        </div>
+      </div>
+
+      <div class="col s12 m4">
+        <div class="icon-block">
+          <h2 class="center brown-text"><i class="material-icons">email</i></h2>
+          <h5 class="center">Email</h5>
+          <p class="light center">info@payteq.com</p>
+        </div>
+      </div>
+
+
+      <div class="col s12 m4">
+        <div class="icon-block">
+          <h2 class="center brown-text"><i class="material-icons">local_phone</i></h2>
+          <h5 class="center">Phone</h5>
+          <p class="light center">+234-803-5789345</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Send us a message section-->
+
+  <div class="row black-text grey lighten-3">
+    <table>
+      <tr>
+        <td>
+          <form class="col s8 offset-s3">
+            <fieldset class="col s8 white"><h4 class="center"> Send Us a Message </h4>
+              <div class="row">
+                <div class="input-field col s6">
+                  <h2 class="center brown-text"><i class="material-icons prefix ">account_circle</i>
+                   <input placeholder="Your name" id="first_name" type="text" class="validate">
+                   <label for="first_name" class="active">First Name</label>
+                 </div>
+                 <div class="input-field col s6">
+                  <h2 class="center brown-text"><i class="material-icons prefix">account_circle</i>
+                    <input placeholder="Your last name" id="last_name" type="text" class="validate">
+                    <label for="last_name" class="active">Last Name</label>
+                  </div>
+                </div>
+                
+                
+                <div class="row">
+                  <div class="input-field col s12">
+                    <h2 class="center brown-text"><i class="material-icons prefix">email</i>
+                      <input id="email" type="email" class="validate">
+                      <label for="email" class="active" align="center">Email</label>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <h2 class="center brown-text"><i class="material-icons prefix">description</i>
+                        <input id="subject" type="text" class="validate">
+                        <label for="subject" class="active">Subject</label>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="row">
+                        <div class="input-field col s12">
+                         <h2 class="center brown-text"><i class="material-icons prefix">mode_edit</i>
+                           <textarea id="textarea1" class="materialize-textarea"></textarea>
+                           <label for="textarea1" class="active">Message</label>
+                         </div>
+                         
+                       </div>
+                     </div>
+                     <button class="btn waves-effect waves-light col s2 offset-s5 light blue darken-2" type="submit" name="action">Submit</button>
+                   </fieldset>
+                 </form>
+               </td>
+             </tr>
+           </table>
+         </div>
+         
+
+         <!-- Footer div-->
+         <footer class="page-footer light blue darken-2">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Company Bio</h5>
+                <p class="grey-text text-lighten-4">We are a team of women developers working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+
+
+              </div>
+              <div class="col l3 s12">
+                <h5 class="white-text">Partners</h5>
+                <ul>
+                  <li><a class="white-text" href="#!">Accountants</a></li>
+                  <li><a class="white-text" href="#!">Banks and Financial Institutions</a></li>
+                  <li><a class="white-text" href="#!">Developers</a></li>
+                  <li><a class="white-text" href="#!">Incubators and Accelerators</a></li>
+                </ul>
+              </div>
+              <div class="col l3 s12">
+                <h5 class="white-text">More</h5>
+                <ul>
+                  <li><a class="white-text" href="#!">Blog</a></li>
+                  <li><a class="white-text" href="#!">Careers</a></li>
+                  <li><a class="white-text" href="#!">Community</a></li>
+                  <li><a class="white-text" href="#!">Privacy Policy</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+              © 2017 Copyright
+              <a class="brown-text text-lighten-3">Payteq Ltd</a>
+            </div>
+          </div>
+        </footer>
+
+
+
+
+      </div> 
+
+
+
+
+
+      <!--  Scripts-->
+      <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script src="js/materialize.js"></script>
+      <script src="js/init.js"></script>
+
+
+
+    </body>
+    </html>

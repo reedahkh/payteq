@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1"/>
+      <title> Payroll System</title>
+
+      <!-- CSS  -->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link href="materialize/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+      <link href="materialize/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+      <link href="materialize/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+      <link href="overidematerialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+      <link rel="stylesheet" type="text/css" href="https://max">
+      
+     
+    </head>
+
+
+
+    <body>
+    <!--  Scripts-->
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script src="materialize/js/materialize.min.js"></script>
+      <script src="materialize/js/materialize.js"></script>
+      <script src="materialize/js/init.js"></script>
+
+      <!-- Header div -->
+    <div>
+                
+      <div class=" white-text light blue darken-2">
+        <table >
+          <tr>          
+            
+            <td> <a href="#!"> <i class="material-icons white-text">add</i></a></td>
+            <td> <i class="material-icons">person_outline</i></td>
+            <td> <i class="material-icons">create_new_folder</i></td>
+            <td> <i class="material-icons">settings</i></td>
+          </tr>
+        </table>
+      </div>
+
+<div>
+
+
+
+ <!-- Fifth Line-->
+      <div class="row">
+      <div class="input-field col s4">
+          <input id="salary" type="text" class="validate">
+          <label for="salary">Basic Salary (N)</label>
+        </div>
+        <div class="input-field col s4">
+          <input id="bonus" type="text" class="validate">
+          <label for="bonus">Bonus (N)</label>
+        </div>
+        <div class="input-field col s4">
+          <select>
+            <option value="" disabled selected></option>
+            <option value="1">Paid</option>
+            <option value="2">Unpaid</option>
+          </select>
+          <label>Filter By</label>
+      </div>
+      <div class="input-field col s4 offset-s8">
+      <button id="PayStaff" class="btn waves-effect waves-light light blue darken-2" type="button" onclick="document.write('Staff Paid Successfully').innerHTML">Pay</button>
+      </div>
+      
+      </div>
+
+<table class="bordered highlight responsive-table centered">
+
+        <thead>
+          <tr>
+              <th>
+                
+                  <form action="#">
+                      <p>
+                        <input type="checkbox" id="test5" onclick="" />
+                        <label for="test5"></label>
+                      </p>
+                      </form>
+                  
+                </th>
+              <th>Staff ID</th>
+              <th>Name</th>
+              <th>Surname</th>
+              <th>Department</th>
+              <th>Grade</th>
+              <th>Payment Plan</th>
+              <th>Due Date</th>
+              <th>Payment Status</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+          <td><div class="row">
+                  <form action="#">
+                      <p>
+                        <input type="checkbox" id="test6" />
+                        <label for="test6"></label>
+                      </p>
+                      </form>
+                  </div></td>
+            <td>otr-001</td>
+            <td>Chibuzor</td>
+            <td>Babalola</td>
+            <td>Human Resource</td>
+            <td>Grade 1</td>
+            <td>P-1</td>
+            <td>27-Aug-2017</td>
+            <td>Paid</td>
+          </tr>
+          <tr>
+          <td><div class="row">
+                  <form action="#">
+                      <p>
+                        <input type="checkbox" id="test7" />
+                        <label for="test7"></label>
+                      </p>
+                      </form>
+                  </div></td>
+            <td>otr-002</td>
+            <td>Farida</td>
+            <td>Kabir</td>
+            <td>Technology</td>
+            <td>Grade 2</td>
+            <td>P-2</td>
+            <td>27-Aug-2017</td>
+            <td>Paid</td>
+          </tr>
+          <tr>
+          <td><div class="row">
+                  <form action="#">
+                      <p>
+                        <input type="checkbox" id="test8"/>
+                        <label for="test8"></label>
+                      </p>
+                      </form>
+                  </div></td>
+            <td>otr-003</td>
+            <td>Mary</td>
+            <td>Chizetere</td>
+            <td>Operations</td>
+            <td>Grade 3</td>
+            <td>P-3</td>
+            <td>27-Aug-2017</td>
+            <td>Unpaid</td>
+          </tr>
+        </tbody>
+      </table>
+</div>
+
+
+
+<!-- Button code-->
+<div class="row">
+      <div class="input-field col s4 offset-s5">
+      <button id="PayStaff" class="btn waves-effect waves-light light blue darken-2" type="button" onclick="document.write('Staff Paid Successfully').innerHTML">Pay</button>
+      </div>
+  </div>    
+
+     </script>
+
+<script type='text/javascript'>
+  $(document).ready(function() {
+    $('select').material_select();
+  });
+</script>
+
+      </body>
+
+
+
+  </html>

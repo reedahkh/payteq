@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1"/>
+      <title> </title>
+
+      <!-- CSS  -->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link href="materialize/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+      <link href="materialize/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+      <link href="materialize/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+      <link href="overidematerialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+      
+     
+    </head>
+
+
+
+    <body>
+      <!--  Scripts-->
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script src="materialize/js/materialize.min.js"></script>
+      <script src="materialize/js/materialize.js"></script>
+      <script src="materialize/js/init.js"></script>
+
+      <!-- Header div -->
+      <div>
+
+        <div class=" white-text light blue darken-2">
+          <nav>
+            <div class="nav-wrapper light blue darken-2">
+              <a href="#" data-activates="slide-out" class="button-collapse show-on-large white-text"><i class="material-icons">menu</i></a>
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="#!"><i class="material-icons white-text">add</i></a></li>
+                <li><a href="#!"><i class="material-icons white-text">person_outline</i></a></li>
+                <li><a href="#!"><i class="material-icons white-text">create_new_folder</i></a></li>
+                <li><a href="#!"><i class="material-icons white-text">settings</i></a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+
+
+
+        <!-- Left side div -->
+        <div class="row">
+          <div class="col s12 m4 l3">
+           <!-- 
+              This content will be:
+          3-columns-wide on large screens,
+          4-columns-wide on medium screens,
+          12-columns-wide on small screens  -->
+          <div class="card-panel white newborder"> 
+          <img src="images/pt.png" alt="payteqlogo"> 
+          <h6>The best payroll system, suitable for all types of companies.</h6>
+          <p>Enjoy unlimited access to:
+                    <span class="black-text"><ol type="a" class="medium">
+                      <li> Invoices </li>
+                      <li> Reports </li>
+                      <li> Storage Space</li>
+                      <li> Regular Scheduled Backups</li>
+                    </ol></p>
+          </div>
+       
+
+
+          <!-- Side Nav Bar Section -->
+          <ul id="slide-out" class="side-nav">
+            <li><div class="user-view">
+              <div class="background">
+                <img src="images/background1.jpg">
+              </div>
+              <a href="#!user"><img class="circle" src="images/pt.png"><i class="material-icons right white-text">close</i></a>
+              <a href="#!name"><span class="white-text name">Payteq Admin</span></a>
+              <a href="#!email"><span class="white-text email">info@payteq.com</span></a>
+            </div>
+            </li>
+
+            <!-- Drop down, and other buttons section-->
+            <li><a class='dropdown-button' href='#' data-activates='dropdown1'>Staff</a>
+              <ul id='dropdown1' class='dropdown-content'>
+                <li><a href="createnewform.html">Create New</a></li>
+                <li><a href="updateform.html">Update Info</a></li>
+                <li><a href="deleteinfo.html">Delete Info</a></li>
+              </ul>
+            </li>
+
+            <li><a class="waves-effect" href="payroll.html">Payroll System</a></li>    
+            <li><a class="waves-effect" href="#!">Logout</a></li>
+          </ul>
+
+        </div>
+
+        <!-- Right side div-->
+        <div class="col s12 m8 l9"> 
+
+        <!-- 
+              This content will be:
+          9-columns-wide on large screens,
+          8-columns-wide on medium screens,
+          12-columns-wide on small screens  -->
+         
+
+          <!-- Table code-->
+        <table class="bordered highlight responsive-table centered">
+         <br><br>
+          <h5>Payroll Group</h5>
+          <p>You can create, edit, and delete your payroll payment plan from here.</p>
+          <ul id="nav-mobile" class=" hide-on-med-and-down">
+            <li><a href="newpplan.html"><button class="btn waves-effect waves-light col s2 green newborder white-text" type="submit" name="action">Create</button></a></li>
+            <li><a href="editpplan.html"><button class="btn waves-effect waves-light col s2 blue darken-2 nborder white-text" type="submit" name="action" value="submit">Edit</button></a></li>
+            <li><a href="deletepplan.html"><button class="btn waves-effect waves-light col s2 green newborder white-text" type="submit" name="action" value="submit">Delete</button></a></li>
+          </ul>
+          <thead>
+            <tr>
+              <th>Grade</th>
+              <th>Payment Plan</th>
+              <th>Basic Salary</th>
+            </tr>
+          </thead>
+
+          <!-- Table Data-->
+          <tbody>
+            <tr>
+              <br><br>
+              <td>Grade 1</td>
+              <td>P-1</td>
+              <td>N50,000</td>
+            </tr>
+
+            <tr>
+              <br><br>
+              <td>Grade 2</td>
+              <td>P-2</td>
+              <td>N100,000</td>
+            </tr>
+
+            <tr>
+              <br><br>
+              <td>Grade 3</td>
+              <td>P-3</td>
+              <td>N150,000</td>
+            </tr>
+
+          </tbody>
+        </table>
+      </div>
+
+        </div>
+
+      </div>
+
+      <!-- Footer div-->
+      <footer class="page-footer light blue darken-2">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">Company Bio</h5>
+              <p class="grey-text text-lighten-4">We are a team of women developers working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+
+
+            </div>
+            <div class="col l3 s12">
+              <h5 class="white-text">Partners</h5>
+              <ul>
+                <li><a class="white-text" href="#!">Accountants</a></li>
+                <li><a class="white-text" href="#!">Banks and Financial Institutions</a></li>
+                <li><a class="white-text" href="#!">Developers</a></li>
+                <li><a class="white-text" href="#!">Incubators and Accelerators</a></li>
+              </ul>
+            </div>
+            <div class="col l3 s12">
+              <h5 class="white-text">More</h5>
+              <ul>
+                <li><a class="white-text" href="#!">Blog</a></li>
+                <li><a class="white-text" href="#!">Careers</a></li>
+                <li><a class="white-text" href="#!">Community</a></li>
+                <li><a class="white-text" href="#!">Privacy Policy</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+            © 2017 Copyright
+            <a class="brown-text text-lighten-3">Payteq Ltd</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Javascript code for the side nav bar-->
+    <script type="text/javascript">
+            // Initialize collapse button
+            $(".button-collapse").sideNav();
+  // Initialize collapsible (uncomment the line below if you use the dropdown variation)
+   menuWidth: 300, // Default is 300
+      edge: 'right', // Choose the horizontal origin
+      closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+      draggable: true, // Choose whether you can drag to open on touch screens,
+      onOpen: function(el) { Do Stuff}, // A function to be called when sideNav is opened
+      onClose: function(el) { Do Stuff}, // A function to be called when sideNav is closed
+
+    }
+    );
+$('.collapsible').collapsible();
+
+</script>
+
+
+
+</body>
+</html>

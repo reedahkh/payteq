@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Register</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="materialize/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="materialize/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="materialize/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="overidematerialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css">
+  
+</head >
+
+<body class="grey lighten-4" style="width:1000px">
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="materialize/js/materialize.min.js"></script>
+  <script src="materialize/js/materialize.js"></script>
+  <script src="materialize/js/init.js"></script>
+
+  <!-- Header div -->
+  <div>
+
+    <div class=" black-text light blue darken-2" style="width:1348px">
+      <nav>
+        <div class="nav-wrapper light blue darken-2">
+          <a href="home.html"><img src="images/ptt.png"/></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="websitelogin.html"><button class="btn waves-effect waves-light col s4 green newborder white-text" type="submit" name="action">Login</button></a></li>
+            <li><a href="websitecreate.html"><button class="btn waves-effect waves-light col s4 blue darken-2 nborder white-text" type="submit" name="action">Register</button></a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <br><br>
+
+
+    <!-- Form code -->
+    
+    <div class="row">
+      <form class="col s12 offset-s2">
+        <fieldset class="col s4 white">
+         
+          <h5 > Registration </h5>
+
+          <div class="row"> 
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="first_name" type="text" class="validate">
+                <label for="first_name">First Name</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="last_name" type="text" class="validate">
+                <label for="last_name">Last Name</label>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="row">
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="email" type="text" class="validate">
+                <label for="email">Email</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="phone" type="tel" class="validate">
+                <label for="phone">Phone</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="password" type="password" class="validate">
+                <label for="password">Password</label>
+              </div>
+            </div>
+          </div>
+
+          <p> <a href="websitelogin.html" class="blue-text text-darken-4"> Already have an account? Login</a></p>
+
+
+          <!-- Button code-->
+          <button class="btn waves-effect waves-light col s4 light blue darken-2" type="submit" name="action">Register</button><br><br>
+
+
+
+
+        </fieldset>
+      </form>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type='text/javascript'>
+      $(document).ready(function() {
+        $('select').material_select();
+      });
+    </script>
+
+  </body>
+  </html>
